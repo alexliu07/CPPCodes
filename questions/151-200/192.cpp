@@ -33,6 +33,7 @@ ll query(int x) {
 int main() {
     cin >> n >> m;
     for (int i = 1; i <= n; i++) {
+        //初始化
         int x;
         cin >> x;
         update(i, x);

@@ -10,14 +10,14 @@
 typedef long long ll;
 
 //常用量
-#define lson (o*2)
-#define rson (o*2+1)
-#define mid ((l+r)/2)
+#define lson (o*2)//相当于o<<1
+#define rson (o*2+1)//相当于(o<<1)|1
+#define mid ((l+r)/2)//相当于(l+r)>>1
 
 //叶子节点
 int a[N];
 //区间和
-ll sumn[N * 4];
+ll sumn[N * 4];//相当于N<<2
 //最大值
 int maxn[N * 4];
 //标记
