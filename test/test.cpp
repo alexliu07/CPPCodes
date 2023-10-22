@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 
-#define N 500005
-using namespace std;
-
 int main() {
-    cout << "hello world";
+    std::cout << time(NULL);
+//    srand(time(NULL));
+//    for (int i = 1; i <= 1000; i++) {
+//        std::cout << rand() << "\n";
+//    }
+
     return 0;
 }
